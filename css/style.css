@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand&family=Staatliches&display=swap");
+body .container .mainBlock ul .taskItem .Btn:hover, body .container .mainBlock ul .taskItem, body .container .mainBlock button:hover, body .container .mainBlock button, body .container .mainBlock input {
+  transition: all 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../image/bg.jpg);
+  background-position: center;
+}
+body .container {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container h1 {
+  font-size: 75px;
+  color: rgb(70, 4, 127);
+  font-family: "Staatliches", cursive;
+}
+body .container .mainBlock {
+  width: 800px;
+  background-color: rgb(70, 4, 127);
+  box-shadow: 0 0 30px rgb(47, 45, 45);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  opacity: 0.7;
+  font-family: "Khand", sans-serif;
+}
+body .container .mainBlock div {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  grid-column-gap: 5px;
+}
+body .container .mainBlock div .texIn {
+  height: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+body .container .mainBlock input {
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+}
+body .container .mainBlock button {
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+body .container .mainBlock button:hover {
+  background: #fff;
+  color: rgb(70, 4, 127);
+}
+body .container .mainBlock ul .taskItem {
+  list-style-type: none;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 9fr 1fr 1fr;
+}
+body .container .mainBlock ul .taskItem .Btn {
+  width: 20px;
+}
+body .container .mainBlock ul .taskItem .Btn:hover {
+  transform: scale(1.125);
+}
+body .container .mainBlock ul .text-line {
+  text-decoration: line-through;
+}/*# sourceMappingURL=style.css.map */
